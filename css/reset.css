@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 131rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
