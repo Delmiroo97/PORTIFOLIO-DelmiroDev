@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    height: 8rem;
+    background-color: var(--cor-secundary);
+    color: var(--cor-primary);
+    /* border: 0.1rem solid red; */
+}
+
+
+header .container .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .nav-bar .image {
+    padding-top: 0.3rem;
+}
+
+header .container .nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header .container .nav-bar ul li a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 0.1rem;
+    color: var(--cor-primary);
+    border-bottom: 0.2rem solid transparent;
+    transition: border-bottom .3s ease;
+}
+
+header .container .nav-bar ul li a:hover {
+    border-bottom: 0.2rem solid var(--cor-primary);
+}
+
