@@ -4,6 +4,7 @@
     box-sizing: border-box;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-primary);
     /* font-family: "Bebas Neue", serif; */
 }
 
