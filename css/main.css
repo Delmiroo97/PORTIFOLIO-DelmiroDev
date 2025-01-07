@@ -113,7 +113,7 @@ header .container .nav-bar ul li a:hover {
     color: var(--cor-secundary);
     font-family: "Bebas Neue", serif;
     font-weight: 500;
-    padding-top: 2rem;
+    padding-top: 12rem;
 }
 
 .aboute-me .container h3 {
@@ -128,5 +128,5 @@ header .container .nav-bar ul li a:hover {
  footer .container p {
     font-size: 1.6rem;
     font-weight: 600;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
  }
