@@ -8,10 +8,6 @@
     /* font-family: "Bebas Neue", serif; */
 }
 
-body {
-    background-color: var(--cor-primary);
-    color: var(--cor-secundary);
-}
 
 html {
     font-size: 62.5%;
