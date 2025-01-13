@@ -190,6 +190,7 @@ header .container .nav-bar ul li a:hover {
 .projects .container .all-projects {
     width: 100%;
     display: flex;
+    gap: 2rem;
 }
 
 .projects .container .all-projects .finsweet iframe {
