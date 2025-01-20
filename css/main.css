@@ -6,7 +6,7 @@ header {
     position: sticky;
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    /* border: 0.1rem solid red; */
+    z-index: 1;
 }
 
 

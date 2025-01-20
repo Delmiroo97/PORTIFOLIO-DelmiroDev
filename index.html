@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio | Delmiro Dev.</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/perfil1-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/typography.css">
@@ -22,32 +23,32 @@
                     <img src="img/logotipo_vazado_black-pq.png" alt="Logo Delmiro">
                 </div>
                 <ul>
-                    <li><a href="">início</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
-                    <li><a href="">projetos</a></li>
+                    <li><a href="#inicio">início</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#inicio">contato</a></li>
+                    <li><a href="#projeto">projetos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="s-hero">
+    <section class="s-hero" id="inicio">
         <div class="container">
-            <div class="left-container">
+            <div class="left-container" data-aos="fade-right">
                 <h2>Transformando ideias em <span>soluções digitais</span> pronto para codificar o <span>futuro</span> da sua empresa.</h2>
                 <p>Com código limpo e criatividade sem limites, estou pronto para elevar seu time ao próximo nível.</p>
                 <a href="https://wa.me/5571991981494" target="_blank">Entre em contato <i class="bi bi-whatsapp"></i></a>
             </div>
 
-            <div class="right-container">
+            <div class="right-container" data-aos="fade-left">
                 <img src="img/pexels-anete-lusina-4792728.jpg" alt="Imagem Ilustativa de teclado e mouse">
             </div>
         </div>
     </section>
 
-    <section class="aboute-me">
+    <section class="aboute-me" id="sobre">
         <div class="container">
-            <div class="left-container">
+            <div class="left-container" data-aos="fade-down">
                 <h2>Sobre mim</h2>
                 <h4>Olá, me chamo Fernando Delmiro</h4>
                 <p>Sou um estudante dedicado de Programação que está se preparando para ingressar no mercado de trabalho.
@@ -63,24 +64,24 @@
 
             <div class="right-container">
                 <div class="tech">
-                    <img src="img/file_type_html_icon_130541.png" alt="logo do html">
-                    <img src="img/file_type_css_icon_130661.png" alt="logo do css">
-                    <img src="img/javascript_icon_130900.png" alt="logo do javaScript">
-                    <img src="img/react_original_logo_icon_146374.png" alt="logo do react">
-                    <img src="img/typescript_original_logo_icon_146317.png" alt="logo do typescript">
-                    <img src="img/git_plain_logo_icon_146507.png" alt="logo do git">
-                    <img src="img/github_git_hub_logo_icon_132878.png" alt="logo do github">
-                    <img src="img/figma_logo_icon_170157.png" alt="logo do figma">
+                    <img src="img/file_type_html_icon_130541.png" alt="logo do html" data-aos="flip-right">
+                    <img src="img/file_type_css_icon_130661.png" alt="logo do css"data-aos="flip-right">
+                    <img src="img/javascript_icon_130900.png" alt="logo do javaScript"data-aos="flip-right">
+                    <img src="img/react_original_logo_icon_146374.png" alt="logo do react"data-aos="flip-right">
+                    <img src="img/typescript_original_logo_icon_146317.png" alt="logo do typescript"data-aos="flip-right">
+                    <img src="img/git_plain_logo_icon_146507.png" alt="logo do git"data-aos="flip-right">
+                    <img src="img/github_git_hub_logo_icon_132878.png" alt="logo do github"data-aos="flip-right">
+                    <img src="img/figma_logo_icon_170157.png" alt="logo do figma"data-aos="flip-right">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projeto">
         <div class="container">
             <h2>Meus projetos</h2>
         </div>   
-        <div class="all-projects">
+        <div class="all-projects" data-aos="fade-up">
             <div class="structboost">
                 <img src="img/structboost-moldura-desk11.png" alt=""> 
                 <div class="box1">
@@ -138,14 +139,28 @@
             <div class="right-container">
                 <nav>
                     <ul>
-                        <li><a href="">início</a></li>
-                        <li><a href="">sobre</a></li>
-                        <li><a href="">contato</a></li>
-                        <li><a href="">projetos</a></li>
+                        <li><a href="#inicio">início</a></li>
+                        <li><a href="#sobre">sobre</a></li>
+                        <li><a href="#inicio">contato</a></li>
+                        <li><a href="#projeto">projetos</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+    </script>
+
+    <script>
+    AOS.init({
+                duration: 2000,
+                once: true,
+                diable: 'mobile'
+            });
+    </script>
+
+
 </body>
 </html>
