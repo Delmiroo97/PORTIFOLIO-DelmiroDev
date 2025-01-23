@@ -14,15 +14,17 @@
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <nav class="nav-bar">
+            <nav class="nav-bar" id="nav">
                 <div class="image">
                     <img src="img/logotipo_vazado_black-pq.png" alt="Logo Delmiro">
                 </div>
-                <ul>
+                <button id="btn-mobile"><img src="img/Icons8-Windows-8-Very-Basic-Menu.48.png" alt="#"></button>
+                <ul id="menu">
                     <li><a href="#inicio">início</a></li>
                     <li><a href="#sobre">sobre</a></li>
                     <li><a href="#inicio">contato</a></li>
@@ -159,6 +161,10 @@
                 once: true,
                 diable: 'mobile'
             });
+    </script>
+
+    <script src="script.js">
+
     </script>
 
 

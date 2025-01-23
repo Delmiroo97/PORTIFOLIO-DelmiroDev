@@ -20,6 +20,9 @@ header .container .nav-bar {
     justify-content: space-between;
 }
 
+ #btn-mobile {
+    display: none;
+}
 
 header .container .nav-bar ul {
     display: flex;

@@ -1,0 +1,54 @@
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 560px) {
+
+    header .container .nav-bar .image img {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .s-hero .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btn-mobile {
+        display: block;
+        border: 0;
+        background-color: transparent;
+    }
+
+    #btn-mobile img {
+        width: 25px;
+        height: 25px;
+        border: 0;
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 10rem;
+        right: 0px;
+        background-color: var(--cor-secundary);
+        height: 0px;
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+}
