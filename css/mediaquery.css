@@ -51,4 +51,92 @@
         padding: 1rem 0;
         margin: 0 1rem;
     }
+
+    .s-hero {
+        height: 43rem;
+    }
+
+    .s-hero .container .left-container h2 {
+        padding-top: 2rem;
+        font-size: 3.8rem;
+        line-height: 5rem;
+    }
+
+    .s-hero .container .left-container h2 span {
+        font-size: 3.8rem;
+    }
+
+    .s-hero .container .left-container p {
+        margin-top: 0.4rem;
+    }
+
+
+    .s-hero .container .right-container img {
+       display: none;
+    }
+
+    .s-hero .container a {
+        display: flex;
+        margin-top: 2rem;
+
+    }
+
+
+    .aboute-me .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .aboute-me .container .left-container {
+        display: flex;
+        width: 100%;  
+    }
+
+    .aboute-me .container .left-container h2 {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .aboute-me .container .left-container h4 {
+       font-size: 2rem;
+       text-align: center;
+    }
+
+    .aboute-me .container .left-container p {
+        
+        text-align: center;
+     }
+
+     .aboute-me .container .left-container .navegation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboute-me .container .right-container .tech {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+ }
+
+ .projects .container h2 {
+    padding-top: 4rem;
+    text-align: center;
 }
+
+.projects .all-projects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+}
+
