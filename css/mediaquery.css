@@ -53,13 +53,14 @@
     }
 
     .s-hero {
-        height: 43rem;
+        height: 58rem;
     }
 
     .s-hero .container .left-container h2 {
-        padding-top: 2rem;
+        padding-top: 5rem;
         font-size: 3.8rem;
         line-height: 5rem;
+        text-align: center;
     }
 
     .s-hero .container .left-container h2 span {
@@ -68,8 +69,15 @@
 
     .s-hero .container .left-container p {
         margin-top: 0.4rem;
+        text-align: center;
     }
 
+    .s-hero .container .left-container a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
 
     .s-hero .container .right-container img {
        display: none;
@@ -138,5 +146,19 @@
     flex-direction: column;
     padding-top: 3rem;
 }
+
+.projects .all-projects .box1, .box2, .box3 {
+    padding-bottom: 3rem;
+}
+
+.projects .all-projects .box1 a, .box2 a, .box3 a {
+    padding: 0.8rem 9.6rem;
+    font-size: 2.4rem;
+}
+
+footer {
+    position: relative;
+}
+
 }
 
