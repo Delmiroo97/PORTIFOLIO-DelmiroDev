@@ -4,6 +4,10 @@
 
 @media (max-width: 560px) {
 
+    header {
+        height: 7.5rem;
+    }
+
     header .container .nav-bar .image img {
         width: 10rem;
         height: 5rem;
