@@ -157,8 +157,21 @@
 }
 
 footer {
-    position: relative;
+    margin-top: 47rem;
 }
 
+footer .container {
+    display: flex;
+    flex-direction: column-reverse;
 }
+footer .container .left-container p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+ }
 
+footer .container .right-container nav ul li a {
+    font-size: 1.6rem;
+ }
+
+}
