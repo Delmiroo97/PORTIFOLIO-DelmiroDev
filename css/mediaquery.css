@@ -4,9 +4,9 @@
 
 @media (max-width: 560px) {
 
-    header {
-        height: 7.5rem;
-    }
+     header {
+        height: 8rem;
+     } 
 
     header .container .nav-bar .image img {
         width: 10rem;
@@ -46,7 +46,7 @@
     }
 
     #nav.active #menu {
-        height: calc(100vh - 70px);
+        height: calc(100vh - 80px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -138,44 +138,44 @@
         gap: 3rem;
         padding-top: 6rem;
         padding-bottom: 6rem;
- }
+    }
 
- .projects .container h2 {
-    padding-top: 4rem;
-    text-align: center;
-}
+    .projects .container h2 {
+        padding-top: 4rem;
+        text-align: center;
+    }
 
-.projects .all-projects {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-}
+    .projects .all-projects {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
 
-.projects .all-projects .box1, .box2, .box3 {
-    padding-bottom: 3rem;
-}
+    .projects .all-projects .box1, .box2, .box3 {
+        padding-bottom: 3rem;
+    }
 
-.projects .all-projects .box1 a, .box2 a, .box3 a {
-    padding: 0.8rem 9.6rem;
-    font-size: 2.4rem;
-}
+    .projects .all-projects .box1 a, .box2 a, .box3 a {
+        padding: 0.8rem 9.6rem;
+        font-size: 2.4rem;
+    }
+    
+    footer {
+        margin-top: 47rem;
+    }
 
-footer {
-    margin-top: 47rem;
-}
+    footer .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer .container .left-container p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-align: center;
+    }
 
-footer .container {
-    display: flex;
-    flex-direction: column-reverse;
-}
-footer .container .left-container p {
-    font-size: 1.6rem;
-    font-weight: 600;
-    text-align: center;
- }
-
-footer .container .right-container nav ul li a {
-    font-size: 1.6rem;
- }
+    footer .container .right-container nav ul li a {
+        font-size: 1.6rem;
+    }
 
 }
