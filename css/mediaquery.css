@@ -35,7 +35,7 @@
         display: block;
         position: absolute;
         width: 100%;
-        top: 10rem;
+        top: 8rem;
         right: 0px;
         background-color: var(--cor-secundary);
         height: 0px;
@@ -46,7 +46,7 @@
     }
 
     #nav.active #menu {
-        height: calc(100vh - 80px);
+        height: calc(100vh - 8rem);
         visibility: visible;
         overflow-y: auto;
     }
@@ -92,7 +92,6 @@
         margin-top: 2rem;
 
     }
-
 
     .aboute-me .container {
         width: 100%;
